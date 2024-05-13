@@ -1,0 +1,49 @@
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+   background-color: rgba(0, 0, 0, 0.533) ;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 0, 0); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #4d4d4d; 
+}
+
+.Home_page{
+  height: 100vh;
+  background-color: rgb(19, 13, 204);
+  position: sticky;
+  top: 0.1px;
+  z-index: -1;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page{
+  background-color: #060918;
+  z-index: 2;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+.divider{
+  /* width: 3px; */
+  height: 1px;
+  border:  solid aliceblue;
+  border-width: 0.1px 0px 0px 0px;
+  width: 90%;
+  height: 10px;
+}

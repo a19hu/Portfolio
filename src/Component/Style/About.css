@@ -1,0 +1,41 @@
+
+.About_{
+    /* height: 80vh; */
+    width: 58%;
+  
+  }
+  .title_about{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .About_column{
+    display: flex;
+    /* columns: 2; */
+    flex-direction: row;
+    color: aliceblue;
+  }
+  .profile_image img{
+    height: 60vh;
+    width: 60vh;
+  }
+  .title{
+    margin: 0;
+    color: aliceblue;
+    font-size: 80px;
+  }
+  
+  
+  .title_name{
+    color: rgb(19, 13, 204);
+    font-weight: 600;
+    background-color: rgba(27, 22, 171, 0.605);
+    border: solid 1px rgb(19, 13, 204);
+    display: inline-block;
+    border-radius: 20px;
+    padding: 4px 10px;
+    text-transform: uppercase;
+    margin: 40px 0;
+  }

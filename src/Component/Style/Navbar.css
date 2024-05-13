@@ -1,0 +1,116 @@
+
+.NavbarApp{
+    position: fixed;
+    top: 20px;
+    width: 100%;
+  }
+  .navbar_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbarapp_hide{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 58%;
+    border-radius: 40px;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: space-between;
+  }
+  .navbarapp_hide a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+
+  }
+  .navbarapp
+  {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 58%;
+    border-radius: 40px;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: solid 1px rgba(0, 0, 0, 0.627);
+    justify-content: space-between;
+    animation: 0.5s animating-multiple-properties;
+    animation-iteration-count:1;
+    animation-direction: normal;
+    animation-fill-mode:forwards;
+  }
+
+  @keyframes animating-multiple-properties {
+   
+    100% {
+          
+          background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+          backdrop-filter: blur(10px);
+    }
+  }
+.button{
+    border: solid 1px white;
+    border-radius: 40px ;
+    padding: 10px;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+  }
+  .button:hover{
+    color: black;
+    animation: color_animation 1.5s   1  forwards;
+  }
+  @keyframes color_animation {
+    0% {
+     
+    }
+    100% {
+      background-color: aliceblue;
+     
+  
+    }
+  }
+  ._links{
+    display: flex;
+    gap: 20px;
+    
+  }
+  ._links a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+  }
+  ._links a:hover{
+    text-shadow: #FC0 1px 0 10px;
+  }
+  .navbarapp a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+
+  }
+  ._A19hu{
+    font-weight: 800;
+    font-size: large;
+
+  }
+  ._logo:hover{
+    animation: transform 1s   1  backwards ;
+  }
+ @keyframes transform {
+    0% {
+     
+    }
+    100% {
+      transform: rotate(0.02turn);
+  
+    }
+    
+ }
