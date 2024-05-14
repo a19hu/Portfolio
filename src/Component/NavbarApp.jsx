@@ -11,7 +11,6 @@ export default function NavbarApp({ show }) {
 
           <HashLink to="#About">About</HashLink>
           <HashLink to="#project">Work</HashLink>
-          <HashLink to="#Contact">Contact</HashLink>
           <HashLink to="#experiance">experiance</HashLink>
 
 
@@ -19,7 +18,7 @@ export default function NavbarApp({ show }) {
         <HashLink className='_logo' > <span className='_A19hu'>
         A19HU {'  '}
           </span> STUDIO</HashLink>
-        <HashLink className='button'>Hit me up</HashLink>
+        <HashLink to="#Contact" className='button'>Hit me up</HashLink>
         </div>
       </div>
     </div>
