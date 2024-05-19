@@ -1,3 +1,94 @@
-.contact{
-    height: 80vh;
+.contacts {
+    /* height: 60vh; */
+    width: 58%;
+    margin: 80px 0;
+}
+
+.contact_column {
+    flex-direction: row;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8%;
+}
+
+.discription {
+    color: white;
+    font-size: 1.2rem;
+    /* width: 80%; */
+}
+
+.label {
+    color: rgb(117, 116, 116);
+    text-transform: uppercase;
+
+}
+
+.tags-input {
+    flex: 1;
+    border: none;
+    height: 40px;
+    width: 400px;
+    /* border: 2px solid crimson;  */
+    background-color: rgba(39, 36, 116, 0.649);
+    border-color: blue;
+    border-width: 1px;
+    font-size: medium;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgba(216, 209, 209, 0.645);
+
+}
+
+.area {
+    height: 60px;
+}
+
+.tags-input:focus {
+    border: none;
+    box-shadow: pink 1px 0 10px;
+    border-color: blue;
+    border-width: 1px;
+    color: white;
+
+}
+
+.submit_button {
+    height: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.submit_button:hover {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
+@media screen and (max-width:1200px) and (min-width:200px) {
+
+    .contact_column {
+        flex-direction: column;
+    }
+
+    .contact {
+        width: 96%;
+    }
+}
+
+@media screen and (max-width:650px) {
+
+    .tags-input {
+        width: 250px;
+    }
+}
+@media screen and (max-width:700px) {
+    .contacts {
+        width: 82%;
+    }
 }

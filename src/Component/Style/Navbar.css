@@ -3,6 +3,15 @@
     position: fixed;
     top: 20px;
     width: 100%;
+    z-index: 100;
+    
+  }
+  .add_background{
+    background-color: #060918f6;
+    top: 0;
+    padding: 20px 0;
+   height: 100vh;
+
   }
   .navbar_container{
     width: 100%;
@@ -51,12 +60,13 @@
    
     100% {
           
-          background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+          background: linear-gradient(135deg, rgba(255, 255, 255, 0.006), rgba(255, 255, 255, 0.1));
           backdrop-filter: blur(10px);
     }
   }
 .button{
     border: solid 1px white;
+    /* width: 2%; */
     border-radius: 40px ;
     padding: 10px;
     filter: blur(0px);
@@ -114,3 +124,73 @@
     }
     
  }
+ @media screen and (min-width: 1070px) {
+
+  .phone_navbar_container{
+    display: none;
+  }
+  .phone-links div{
+    display: none;
+    /* background-color: #FC0; */
+
+  }
+  .add_background{
+    background-color:transparent;
+    top: 0;
+    padding: 20px 0;
+   height: 0vh;
+
+  }
+
+}
+ @media screen and (max-width: 1070px) {
+  .navbar_container{
+  display: none;
+   
+
+  }
+  .phone_navbar_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+.phone-links{
+   display: flex;
+   justify-content: center;  
+   width: 100%;
+
+   
+
+}
+.phone-links div{
+  width: 100%;
+  margin: 30px;
+  padding: 30px;
+}
+.phone-links hr{
+  margin: 20px 0;
+  opacity: 0.4;
+}
+.phone-links a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 250;
+}
+.Contact_phone{
+  display: none;
+}
+
+@media screen and (max-width:490px)  {
+
+  .button{
+    display: none;
+  }
+  .Contact_phone{
+    display: block;
+  }
+}

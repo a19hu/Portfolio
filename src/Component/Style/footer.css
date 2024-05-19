@@ -1,6 +1,7 @@
 .footer{
     height: 8vh;
     width: 58%;
+    margin-top: 20px;
 
 }
 .item{
@@ -17,3 +18,10 @@
     display: flex;
     gap: 20px;
 }
+@media screen and (max-width:700px) {
+    .footer{
+      width: 96%;
+    
+    }
+
+  }

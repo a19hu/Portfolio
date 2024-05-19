@@ -33,7 +33,7 @@ function App() {
   <Home/>
       <About/>
       <Project/>
-      <Skill/>
+      {/* <Skill/> */}
       <Contact/>
       <Footer/>
     </BrowserRouter> 

@@ -1,7 +1,7 @@
 
 .About_{
-    /* height: 80vh; */
     width: 58%;
+margin-top: 5%;
   
   }
   .title_about{
@@ -16,10 +16,22 @@
     /* columns: 2; */
     flex-direction: row;
     color: aliceblue;
+    gap: 15%;
   }
   .profile_image img{
-    height: 60vh;
-    width: 60vh;
+    height: 28vh;
+    width: 26vh;
+    border-radius: 50%;
+    border: 2px solid rgb(31, 27, 144);
+    border-radius: 50%;
+  }
+  .profile_image{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+
   }
   .title{
     margin: 0;
@@ -29,13 +41,64 @@
   
   
   .title_name{
-    color: rgb(19, 13, 204);
+    color: rgb(47, 41, 207);
     font-weight: 600;
-    background-color: rgba(27, 22, 171, 0.605);
+    background-color: rgba(67, 64, 162, 0.605);
     border: solid 1px rgb(19, 13, 204);
     display: inline-block;
     border-radius: 20px;
     padding: 4px 10px;
     text-transform: uppercase;
     margin: 40px 0;
+  }
+  .about_me{
+    /* font-size: 30px; */
+    word-spacing: 2px;
+    font-weight: 200;
+  }
+
+.resume{
+  color: rgb(14, 128, 227);
+  display: flex;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 20px;
+  width: 130px;
+  padding: 6px;
+  margin-top: 20px;
+  background-color:transparent;
+  gap: 5px;
+  text-decoration: none;
+}
+.resume:hover{
+  animation: backgrounds 1s   1  forwards;
+}
+@keyframes backgrounds {
+  100%{
+  background-color: white;
+  }
+  0%{
+    background-color:transparent;
+  }
+}
+  @media screen and (max-width:1200px) {
+
+  .About_column{
+   flex-direction: column;
+  }
+
+.About_{
+  width: 100%;
+
+}
+.about_me{
+width: 100%;
+}
+  }
+  @media screen and (max-width:700px) {
+    .About_{
+      width: 100%;
+    
+    }
+
   }
