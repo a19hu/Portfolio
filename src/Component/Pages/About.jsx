@@ -17,9 +17,9 @@ export default function About() {
               <div>
                 <div className='title_name'>About</div>
                 <div className='about_me'>
-                Hi, I'm Ashutosh Kumar, an engineering student at IIT Jodhpur. I experiment with various tech stacks and have developed proficiency in several. My expertise is in web development, where I excel in both front-end and back-end development. Driven by a passion for learning and innovation, I'm eager to bring my skills to new and challenging projects.
+                Hi, I'm Ashutosh Kumar, an engineering student at IIT Jodhpur. I experiment with various tech stacks and have developed proficiency in several. My expertise is in web development, where I excel in both front-end and back-end development and also devops. Driven by a passion for learning and innovation, I'm eager to bring my skills to new and challenging projects.
                 </div>
-                <a href="http" target='_blank' className='resume'>
+                <a href="https://drive.google.com/file/d/15guyrUa0wgg0ZwNpdPin9Uxz49mDhhPC/view?usp=drivesdk" target='_blank' className='resume'>
      <BsFillFileEarmarkPdfFill color='rgb(14, 128, 227)' size={20} />View Resume
         </a>
               </div>

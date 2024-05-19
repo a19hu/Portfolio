@@ -36,7 +36,7 @@
   width: 200px;
   /* transform: skew(10deg, 10deg); */
   transform: rotate3d(1, 2, 1, -10deg);
-  filter: drop-shadow(16px 16px 20px rgb(82, 118, 156)) invert(0%);
+  filter: drop-shadow(16px 16px 20px rgba(88, 118, 150, 0.833));
   /* -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0, 0, 0, 0.152));  */
 }
 .reverse{
@@ -54,6 +54,7 @@ transform: rotateZ(10deg);
 .project_detail h3{
   color: white;
   filter: drop-shadow(2px 4px 5px white);
+  text-decoration: underline;
 
 }
 .links_project{
