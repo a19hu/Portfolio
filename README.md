@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [visit my portfolio](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [visit my portfolio](https://portfolio-t6s1.vercel.app/).
 
 ## Available Scripts
 
