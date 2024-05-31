@@ -127,7 +127,7 @@ export default function Project() {
 
                 </a> | {''}
 
-                <a href="https://github.com/a19hu/Face_recognition/" target='_blank'>
+                <a href="https://github.com/a19hu/face_recognition_" target='_blank'>
                   <FaGithub size={25} color='white' />
 
                 </a>
@@ -250,7 +250,7 @@ export default function Project() {
 
                 </a> | {''}
 
-                <a href="https://github.com/a19hu/Face_recognition/" target='_blank'>
+                <a href="https://github.com/a19hu/face_recognition_" target='_blank'>
                   <FaGithub size={25} color='white' />
 
                 </a>
