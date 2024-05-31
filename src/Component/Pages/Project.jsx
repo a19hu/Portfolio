@@ -4,6 +4,7 @@ import faceRecogniation from '../Images/attendence.webp'
 import Aptos from '../Images/Aptos.jpeg'
 import facereco from '../Images/face_recognisation.png'
 import prometeo from '../Images/prometeo.jpg'
+import Celebrare from '../Images/Celebrare.jpg'
 import tree from '../Images/iitj_tree.jpeg'
 import { IoIosLink } from "react-icons/io";
 import { FaVideo } from "react-icons/fa";
@@ -75,7 +76,7 @@ export default function Project() {
               Developed "IITJ Family Tree" using Django with GraphQL, MySQL, and React.js to showcase IIT Jodhpur student profiles and the institution's cultural essence.
 
               <div className='links_project'>
-                <a href="">
+                <a href="https://demo-frontend-gamma.vercel.app/">
                   <IoIosLink size={25} />
 
                 </a> | {''}
@@ -83,7 +84,7 @@ export default function Project() {
 
                   <FaVideo size={25} />
                 </a>| {''}
-                <a href="https://github.com/a19hu/iitj_family_tree" target='_blank'>
+                <a href="https://github.com/a19hu/family_tree" target='_blank'>
                   <FaGithub size={25} />
 
                 </a>
@@ -135,6 +136,30 @@ export default function Project() {
 
             </div>
             
+          </div>
+          <div className='project_divide'>
+
+            <div className='project_detail'>
+              <h3>Celebrare</h3>
+              Image Selection and Customization: Expertly selected and customized an
+image from my device, demonstrating strong skills in image editing and
+adaptation to fit specific requirements and personal setup.
+              <div className='links_project'>
+                <a href="https://github.com/a19hu/Celebrare/blob/app/app-release.apk" target='_blank'>
+                  <IoIosLink size={25} />
+
+                </a> | {''}
+
+                <a href="https://github.com/a19hu/Celebrare" target='_blank'>
+                  <FaGithub size={25} color='white' />
+
+                </a>
+              </div>
+
+            </div>
+            <div className='image_project reverse'>
+              <img src={Celebrare} alt="" />
+            </div>
           </div>
         </div>
         <div className='project_phone'>
@@ -235,6 +260,30 @@ export default function Project() {
               </div>
 
             </div>
+            
+          </div>
+                    <div className='project_divide'>
+</div>
+            <div className='image_project'>
+              <img src={Celebrare} alt="" />
+            </div>
+            <div className='project_detail'>
+              <h3>Celebrare</h3>
+              Image Selection and Customization: Expertly selected and customized an
+image from my device, demonstrating strong skills in image editing and
+adaptation to fit specific requirements and personal setup.
+              <div className='links_project'>
+                <a href="https://github.com/a19hu/Celebrare/blob/app/app-release.apk" target='_blank'>
+                  <IoIosLink size={25} />
+
+                </a> | {''}
+
+                <a href="https://github.com/a19hu/Celebrare" target='_blank'>
+                  <FaGithub size={25} color='white' />
+
+                </a>
+              </div>
+
             
           </div>
           <div className='project_divide'>
