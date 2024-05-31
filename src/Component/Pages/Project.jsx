@@ -231,7 +231,7 @@ export default function Project() {
 
                   <FaVideo size={25} />
                 </a>| {''}
-                <a href="https://github.com/a19hu/iitj_family_tree" target='_blank'>
+                <a href="https://github.com/a19hu/family_tree" target='_blank'>
                   <FaGithub size={25} />
 
                 </a>
