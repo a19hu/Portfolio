@@ -4,7 +4,7 @@ import faceRecogniation from '../Images/attendence.webp'
 import Aptos from '../Images/Aptos.jpeg'
 import facereco from '../Images/face_recognisation.png'
 import prometeo from '../Images/prometeo.jpg'
-import Celebrare from '../Images/Celebrare.jpg'
+import Celebrare from '../Images/Celebrare.jpeg'
 import tree from '../Images/iitj_tree.jpeg'
 import { IoIosLink } from "react-icons/io";
 import { FaVideo } from "react-icons/fa";
@@ -116,7 +116,7 @@ export default function Project() {
             </div>
           </div>
           <div className='project_divide'>
-          <div className='image_project'>
+            <div className='image_project'>
               <img src={facereco} alt="" />
             </div>
             <div className='project_detail'>
@@ -135,15 +135,15 @@ export default function Project() {
               </div>
 
             </div>
-            
+
           </div>
           <div className='project_divide'>
 
             <div className='project_detail'>
               <h3>Celebrare</h3>
               Image Selection and Customization: Expertly selected and customized an
-image from my device, demonstrating strong skills in image editing and
-adaptation to fit specific requirements and personal setup.
+              image from my device, demonstrating strong skills in image editing and
+              adaptation to fit specific requirements and personal setup.
               <div className='links_project'>
                 <a href="https://github.com/a19hu/Celebrare/blob/app/app-release.apk" target='_blank'>
                   <IoIosLink size={25} />
@@ -163,7 +163,7 @@ adaptation to fit specific requirements and personal setup.
           </div>
         </div>
         <div className='project_phone'>
-        <div className='project_divide'>
+          <div className='project_divide'>
             <div className='image_project'>
               <img src={faceRecogniation} alt="" />
             </div>
@@ -191,7 +191,7 @@ adaptation to fit specific requirements and personal setup.
             </div>
           </div>
           <div className='project_divide'>
-          <div className='image_project reverse'>
+            <div className='image_project reverse'>
               <img src={Aptos} alt="" />
             </div>
             <div className='project_detail'>
@@ -211,7 +211,7 @@ adaptation to fit specific requirements and personal setup.
               </div>
 
             </div>
-            
+
           </div>
           <div className='project_divide'>
             <div className='image_project '>
@@ -241,7 +241,7 @@ adaptation to fit specific requirements and personal setup.
 
           </div>
           <div className='project_divide'>
-          <div className='image_project reverse'>
+            <div className='image_project reverse'>
               <img src={prometeo} alt="" />
             </div>
             <div className='project_detail'>
@@ -260,34 +260,11 @@ adaptation to fit specific requirements and personal setup.
               </div>
 
             </div>
-            
+
           </div>
-                    <div className='project_divide'>
-</div>
-            <div className='image_project'>
-              <img src={Celebrare} alt="" />
-            </div>
-            <div className='project_detail'>
-              <h3>Celebrare</h3>
-              Image Selection and Customization: Expertly selected and customized an
-image from my device, demonstrating strong skills in image editing and
-adaptation to fit specific requirements and personal setup.
-              <div className='links_project'>
-                <a href="https://github.com/a19hu/Celebrare/blob/app/app-release.apk" target='_blank'>
-                  <IoIosLink size={25} />
 
-                </a> | {''}
-
-                <a href="https://github.com/a19hu/Celebrare" target='_blank'>
-                  <FaGithub size={25} color='white' />
-
-                </a>
-              </div>
-
-            
-          </div>
           <div className='project_divide'>
-          <div className='image_project'>
+            <div className='image_project'>
               <img src={facereco} alt="" />
             </div>
             <div className='project_detail'>
@@ -306,7 +283,31 @@ adaptation to fit specific requirements and personal setup.
               </div>
 
             </div>
-            
+
+          </div>
+          <div className='project_divide'>
+          </div>
+          <div className='image_project'>
+            <img src={Celebrare} alt="" />
+          </div>
+          <div className='project_detail'>
+            <h3>Celebrare</h3>
+            Image Selection and Customization: Expertly selected and customized an
+            image from my device, demonstrating strong skills in image editing and
+            adaptation to fit specific requirements and personal setup.
+            <div className='links_project'>
+              <a href="https://github.com/a19hu/Celebrare/blob/app/app-release.apk" target='_blank'>
+                <IoIosLink size={25} />
+
+              </a> | {''}
+
+              <a href="https://github.com/a19hu/Celebrare" target='_blank'>
+                <FaGithub size={25} color='white' />
+
+              </a>
+            </div>
+
+
           </div>
         </div>
       </div>
